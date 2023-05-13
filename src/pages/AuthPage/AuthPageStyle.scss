@@ -1,0 +1,48 @@
+.auth__plate {
+  background-color: rgb(15,16,19);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  border-radius: 1rem;
+  h1 {
+    font-size: 3rem;
+  }
+  gap: 2rem;
+  width: 70%;
+}
+
+.auth__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10rem 20px;
+}
+
+.auth__form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+  align-items: center;
+}
+
+.auth__input {
+  width: 100%;
+}
+
+.auth__change {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  button {
+    border: none;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    font-size: 1.2rem;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

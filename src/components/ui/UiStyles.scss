@@ -1,0 +1,43 @@
+.NInput {
+  background-color: rgb(22,23,29);
+  border: none;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  font-size: 1.5rem;
+  width: 100%;
+  outline: none;
+  color: white;
+  &:focus {
+    outline: solid 2px rgb(54,54,75);
+  }
+}
+
+.NButton {
+  height: 100%;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 1rem;
+  font-size: 2rem;
+  font-weight: 600;
+  background-color: rgb(22,23,29);
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  &:hover, &:focus {
+    background-color: rgb(26, 27, 39);
+  }
+}
+
+.NButton.green {
+  background-color: #1a7463;
+  &:hover {
+    background-color: #145d4f;
+  }
+}
+
+.NButton.purple {
+  background-color: #3c3466;
+  &:hover {
+    background-color: #2d264c;
+  }
+}
