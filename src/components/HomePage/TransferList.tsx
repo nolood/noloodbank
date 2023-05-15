@@ -1,10 +1,10 @@
 import {useEffect, useState} from "react";
 import {get, getDatabase, ref} from "firebase/database";
-import {IUsers} from "../types/UsersType.ts";
+import {IUsers} from "../../types/UsersType.ts";
 import TransferListItem from "./TransferListItem.tsx";
-import MainLoader from "./Loaders/MainLoader.tsx";
-import {useAppDispatch} from "../hooks/useRedux.ts";
-import {setUsersData} from "../store/userSlice/userSlice.ts";
+import MainLoader from "../Loaders/MainLoader.tsx";
+import {useAppDispatch} from "../../hooks/useRedux.ts";
+import {setUsersData} from "../../store/userSlice/userSlice.ts";
 
 const TransferList = () => {
 

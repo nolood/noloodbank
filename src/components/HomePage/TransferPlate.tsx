@@ -1,7 +1,7 @@
 import NInput from "../ui/NInput.tsx";
 import {SyntheticEvent, useEffect, useState} from "react";
 import NButton from "../ui/NButton.tsx";
-import TransferList from "../TransferList.tsx";
+import TransferList from "./TransferList.tsx";
 import {useAppSelector} from "../../hooks/useRedux.ts";
 import {get, getDatabase, ref, push, serverTimestamp, set} from "firebase/database";
 

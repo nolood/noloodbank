@@ -1,9 +1,9 @@
 import {FC} from "react";
-import {IUsers} from "../types/UsersType.ts";
+import {IUsers} from "../../types/UsersType.ts";
 import {motion} from "framer-motion";
-import UserIcon from "./icons/UserIcon.tsx";
-import {useAppDispatch, useAppSelector} from "../hooks/useRedux.ts";
-import {setTransferCard, setTransferId} from "../store/userSlice/userSlice.ts";
+import UserIcon from "../icons/UserIcon.tsx";
+import {useAppDispatch, useAppSelector} from "../../hooks/useRedux.ts";
+import {setTransferCard, setTransferId} from "../../store/userSlice/userSlice.ts";
 
 interface TransferListItemProps extends IUsers {
     index: number

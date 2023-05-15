@@ -27,7 +27,6 @@ const AuthPage = () => {
                     const user = userCredential.user
                     const db = getDatabase()
                     const userRef = ref(db, `users/${user.uid}`)
-
                     set(userRef, {
                         id: user.uid,
                         email: email,
